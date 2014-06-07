@@ -15,4 +15,6 @@ install:
 
 script:
   - xbuild ./ScriptCs.sln /property:Configuration=Debug /nologo /verbosity:normal
+
+after_success:
   - mono test/xunit-1.9.2/xunit.console.clr4.x86.exe test/ScriptCs.xunit
