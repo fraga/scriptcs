@@ -15,7 +15,7 @@ install:
 
 script:
   - xbuild ./ScriptCs.sln /property:Configuration=Release /nologo /verbosity:normal
-
+  - mono test/xunit/xunit.console.clr4.x86.exe test/ScriptCs.xunit
 notifications:
   email:
     - adam@adamralph.com
