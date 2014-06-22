@@ -2,10 +2,6 @@
 <xunit>
   <assemblies>
     <assembly filename="ScriptCs.Core.Tests/bin/Debug/ScriptCs.Core.Tests.dll" shadow-copy="true" />
-    <assembly filename="ScriptCs.Engine.Mono.Tests/bin/Debug/ScriptCs.Engine.Mono.Tests.dll" shadow-copy="true" />
-    <assembly filename="ScriptCs.Engine.Roslyn.Tests/bin/Debug/ScriptCs.Engine.Roslyn.Tests.dll" shadow-copy="true" />
-    <assembly filename="ScriptCs.Hosting.Tests/bin/Debug/ScriptCs.Hosting.Tests.dll" shadow-copy="true" />
-    <assembly filename="ScriptCs.Tests/bin/Debug/ScriptCs.Tests.dll" shadow-copy="true" />
     <assembly filename="ScriptCs.Tests.Acceptance/bin/Debug/ScriptCs.Tests.Acceptance.dll" shadow-copy="true" />
   </assemblies>
 </xunit>
